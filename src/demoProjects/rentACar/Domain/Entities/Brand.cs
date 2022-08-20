@@ -15,10 +15,10 @@ namespace Domain.Entities
         {
         }
 
-        public Brand(int brandId, string name):this()
+        public Brand(int brandId, string brandName):this()
         {
             Id = brandId;
-            Name = name;
+            Name = brandName;
         }
     }
 }
